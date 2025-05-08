@@ -66,4 +66,6 @@ give_loadout()
     maps\_loadout_code::default_loadout_if_notset();
 	
 	precachemodel( "viewbody_us_army" );
+	precachemodel( "viewhands_player_us_army" );
+	precachemodel( "viewmodel_base_viewhands" );
 }
