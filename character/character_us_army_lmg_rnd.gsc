@@ -14,7 +14,7 @@ main()
             character\character_us_army_lmg_c::main();
             break;
     }
-	self.voice = "russian";
+	self.voice = "american";
     self setclothtype( "vestlight" );
 }
 

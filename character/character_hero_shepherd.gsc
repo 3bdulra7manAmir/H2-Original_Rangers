@@ -4,7 +4,7 @@ main()
 	self setModel("body_vil_shepherd_no_gun");
 	self attach("head_vil_shepherd", "", true);
 	self.headModel = "head_vil_shepherd";
-	self.voice = "russian";
+	self.voice = "american";
 }
 
 precache()

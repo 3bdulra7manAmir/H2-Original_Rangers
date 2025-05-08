@@ -14,7 +14,7 @@ main()
             character\body_us_army_shotgun::main();
             break;
     }
-	self.voice = "russian";
+	self.voice = "american";
     self setclothtype( "vestlight" );
 }
 

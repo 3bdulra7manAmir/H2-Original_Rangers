@@ -4,7 +4,7 @@ main()
 	self setModel("body_us_army_dmg_c_wht");
 	self attach("head_army_b_dmg_c_wht", "", true);
 	self.headModel = "head_army_b_dmg_c_wht";
-	self.voice = "russian";
+	self.voice = "american";
 }
 
 precache()

@@ -11,7 +11,7 @@ main()
             character\character_us_army_unarmed_b::main();
             break;
     }
-	self.voice = "russian";
+	self.voice = "american";
     self setclothtype( "vestlight" );
 }
 
