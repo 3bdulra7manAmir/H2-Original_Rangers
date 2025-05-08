@@ -5,13 +5,13 @@ main()
     switch ( codescripts\character::get_random_character( 3 ) )
     {
         case 0:
-            character\body_us_army_shotgun_c::main();
+            character\character_us_army_shotgun::main();
             break;
         case 1:
-            character\body_us_army_shotgun_b::main();
+            character\character_us_army_shotgun_b::main();
             break;
         case 2:
-            character\body_us_army_shotgun::main();
+            character\character_us_army_shotgun_c::main();
             break;
     }
 	self.voice = "american";
@@ -20,7 +20,7 @@ main()
 
 precache()
 {
-	character\body_us_army_shotgun_c::precache();
-    character\body_us_army_shotgun_b::precache();
-    character\body_us_army_shotgun::precache();
+	character\character_us_army_shotgun::precache();
+    character\character_us_army_shotgun_b::precache();
+    character\character_us_army_shotgun_c::precache();
 }
