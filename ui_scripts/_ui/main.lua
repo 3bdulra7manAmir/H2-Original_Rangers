@@ -1,25 +1,3 @@
-function frontend()
-    LUI.onmenuopen("main_lockout", function(menu)
-        PersistentBackground.ChangeBackground("h2_custom_menu_background", nil, false)
-    end)
-
-    LUI.onmenuopen("main_campaign", function(menu)
-        PersistentBackground.ChangeBackground("h2_custom_menu_background_greyscale", nil, false)
-    end)
-
-    LUI.onmenuopen("mods_menu", function(menu)
-        PersistentBackground.ChangeBackground("h2_custom_menu_background_alternative", nil, false)
-    end)
-end
-
-function ingame()
-    isIntelCheatsAllowed = function()
-        return true
-    end
-end
-
-if (Engine.InFrontend()) then
-    frontend()
-else
-    ingame()
-end
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ae55f8f7c60586b72371f9c3adfddfbcc51a8b55b0b52e34b8059d93e83b117
+size 640

@@ -1,22 +1,3 @@
-main()
-{
-	maps\_custom_utility::detach_all_attachments();
-
-    switch ( codescripts\character::get_random_character( 2 ) )
-    {
-        case 0:
-            character\character_us_army_unarmed::main();
-            break;
-        case 1:
-            character\character_us_army_unarmed_b::main();
-            break;
-    }
-	self.voice = "american";
-    self setclothtype( "vestlight" );
-}
-
-precache()
-{
-	character\character_us_army_unarmed::precache();
-    character\character_us_army_unarmed_b::precache();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6454c42708310cf33b1b25b009ff5f9b5a3408f13746ac1b2377ef894af0b6b5
+size 528

@@ -1,33 +1,3 @@
-detach_all_attachments()
-{
-	if ( isdefined( self.headmodel ) ) 
-	{
-		self detach( self.headmodel );
-		self.headmodel = undefined;
-	}
-
-	if ( isdefined( self.accessorymodels ) ) 
-	{
-		detach_accessorymodels();
-	}
-
-	if ( isdefined( self.charactername ) ) 
-	{
-		self.charactername = undefined;
-	}
-}
-
-detach_accessorymodels()
-{
-	if ( !isdefined( self.accessorymodels ) ) 
-	{
-		return;
-	}
-
-	foreach ( acc in self.accessorymodels ) 
-	{
-		self detach( acc );
-	}
-
-	self.accessorymodels = undefined;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8832f232c421de689a226bf9c20f4e1a16019878e9c25c16b564be756c1a0e5
+size 491

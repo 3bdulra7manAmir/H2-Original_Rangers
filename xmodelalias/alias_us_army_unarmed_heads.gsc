@@ -1,11 +1,3 @@
-// H2 PC GSC
-// Decompiled by https://github.com/xensik/gsc-tool
-
-main()
-{
-    var_0[0] = "head_army_welder";
-    var_0[1] = "head_army_d_casual_wht";
-    var_0[2] = "head_army_b_casual_wht";
-    var_0[3] = "head_army_c_casual_blk";
-    return var_0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:640137b6d676ab62fda65cbb724a122f5d5fadcce6872a8bb2b38e1bf87466db
+size 269

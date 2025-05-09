@@ -1,16 +1,3 @@
-// H2 PC GSC
-// Decompiled by https://github.com/xensik/gsc-tool
-
-main()
-{
-    self setmodel( "body_us_army_assault_b" );
-    codescripts\character::attachHead( "alias_us_army_heads", xmodelalias\alias_us_army_heads::main() );
-    self.voice = "american";
-    self setclothtype( "vestlight" );
-}
-
-precache()
-{
-    precachemodel( "body_us_army_assault_b" );
-    codescripts\character::precacheModelArray(xmodelalias\alias_us_army_heads::main());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b4426e555b158c80670e84b206067a36a5edcf644a4525bdde46207f4f81f36
+size 455

@@ -1,17 +1,3 @@
-// H2 PC GSC
-// Decompiled by https://github.com/xensik/gsc-tool
-
-main()
-{
-    self setmodel( "body_us_army_riot" );
-    self attach( "head_riot_udt", "", 1 );
-    self.headmodel = "head_riot_udt";
-    self.voice = "american";
-    self setclothtype( "vestlight" );
-}
-
-precache()
-{
-    precachemodel( "body_us_army_riot" );
-    precachemodel( "head_riot_udt" );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:83843564d691279eafa5fee8c3035bfc8c9138a9b862ff5923d9dd8c17e24d59
+size 383
