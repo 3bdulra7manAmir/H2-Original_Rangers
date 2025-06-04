@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-BSD--3-orange) ![Bugs](https://img.shields.io/badge/bugs-0%20open-brightgreen) ![Build](https://img.shields.io/badge/Build-passing-brightgreen?logo=github) [![Members](https://img.shields.io/discord/750034898680807434?label=members&logo=discord&color=7289da)](https://discord.gg/CHZea8zvBG)
+
+<br>
+
 ![Screenshot (443)](https://github.com/user-attachments/assets/9593aedf-0e83-4df9-bed3-65e10d71c7c9)
 ![Screenshot (444)](https://github.com/user-attachments/assets/51563ec7-e05e-4ad3-bcc4-eb2add993d16)
 ![Screenshot (446)](https://github.com/user-attachments/assets/db015010-70e8-4ee6-aede-cae4436c2fd7)
